@@ -13,7 +13,7 @@ class ResultViewController: UIViewController {
     var name : String = ""
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.Name.text = "あなたの名前は\(name)です"
+        self.Name.text = "こんにちは、\(name)さん"
         
         //  any additional setup after loading the view.
     }
